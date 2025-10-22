@@ -78,6 +78,10 @@ dependencies {
     // --- Compose Lifecycle ---
     implementation("androidx.lifecycle:lifecycle-runtime-compose:2.8.3")
 
+    // Necesaria para KeyboardOptions y otros elementos de texto
+    implementation("androidx.compose.foundation:foundation:1.7.3")
+
+
     // --- Testing ---
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.2.1")
